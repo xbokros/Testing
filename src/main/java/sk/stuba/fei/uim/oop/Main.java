@@ -15,5 +15,11 @@ public class Main {
         int op1 = 2/3;      //0
         int op2 = 2%3;      //2
 
+        System.out.println(op1);
+        System.out.println(op2);
+
+        float op3 = 2/3.0f;
+        System.out.println(op3);
+
     }
 }
