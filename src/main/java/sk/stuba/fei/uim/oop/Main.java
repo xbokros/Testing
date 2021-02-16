@@ -31,5 +31,21 @@ public class Main {
             System.out.println("I am alive!");
         }
 
+        switch (x){
+            case 1:
+                System.out.println("X = 1");
+                break;
+            case 2:
+                System.out.println("X = 2");
+                break;
+            case 15:
+                System.out.println("X = 15");
+                break;
+            default:
+                System.out.println(String.format("X = %d",x));
+        }
+        for(int i = 1; i <= x; i++){
+            System.out.println(String.format("i = %d",i));
+        }
     }
 }
