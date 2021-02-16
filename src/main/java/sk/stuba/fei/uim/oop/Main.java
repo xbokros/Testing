@@ -47,5 +47,10 @@ public class Main {
         for(int i = 1; i <= x; i++){
             System.out.println(String.format("i = %d",i));
         }
+
+        while(true){
+            System.out.println("Fake for-cycle");
+            break;
+        }
     }
 }
