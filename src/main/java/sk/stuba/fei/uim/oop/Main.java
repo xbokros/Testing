@@ -52,5 +52,9 @@ public class Main {
             System.out.println("Fake for-cycle");
             break;
         }
+        System.out.println("5 + 7 is = " + sum(5,7));
+    }
+    public static int sum(int a, int b){
+        return a+b;
     }
 }
