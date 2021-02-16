@@ -21,5 +21,15 @@ public class Main {
         float op3 = 2/3.0f;
         System.out.println(op3);
 
+        boolean truth = true;
+
+        if(2>1){
+            System.out.println("Hello");
+            System.out.println("World");
+        }
+        if(2!=1){
+            System.out.println("I am alive!");
+        }
+
     }
 }
