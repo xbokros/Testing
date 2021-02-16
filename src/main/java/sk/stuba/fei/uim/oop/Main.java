@@ -53,6 +53,21 @@ public class Main {
             break;
         }
         System.out.println("5 + 7 is = " + sum(5,7));
+        System.out.println("Length = " + args.length);
+        for (int i = 0; i < args.length; i++){
+            System.out.println(args[i]);
+        }
+        int[] myArray = new int[10];
+        for (int i = 0; i < myArray.length; i++){
+            if(i == 0){
+                myArray[i] = 1;
+                continue;
+            }
+            myArray[i] = myArray[i-1]*2;
+        }
+        for (int i = 0; i < myArray.length; i++){
+            System.out.println(i + " : " + myArray[i]);
+        }
     }
     public static int sum(int a, int b){
         return a+b;
